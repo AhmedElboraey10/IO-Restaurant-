@@ -1,0 +1,477 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8"/>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <title>IO | The Finest Cuisine</title>
+
+        <link rel="stylesheet" href="css/normalize.css"/>
+        <link rel="stylesheet" href="css/all.min.css"/>
+        <link rel="stylesheet" href="css/style.css"/>
+
+        <link rel="preconnect" href="https://fonts.gstatic.com"/>
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&#038;display=swap" rel="stylesheet"/>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"/>
+    </head>
+    <body>
+
+        <header>
+            <div class="container">
+                <a href="#" class="logo">
+                    <img decoding="async" src="images/new-logo.png" alt="Restaurant Logo"/> 
+                </a>
+                <nav>
+                    <i class="fas fa-bars toggle-menu"></i>
+                    <ul>
+                        <li><a class="active" href="#home">Home</a></li>
+                        <li><a href="#menu">Menu</a></li>
+                        <li><a href="#gallery">Gallery</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#reservations">Reservations</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                    <div class="form">
+                        <i class="fas fa-search"></i>
+                    </div>
+                </nav>
+            </div>
+        </header>
+
+        <section class="landing">
+            <div class="overlay" id="home"></div>
+            <div class="text">
+                <div class="content">
+                    <h2>
+                        Welcome! We Are IO
+                        <br>
+                        Where Flavor and Quality Speak for Themselves.
+                    </h2>
+                    <p>
+                        Discover a menu rich with authentic flavors, prepared daily with the finest, freshest ingredients. 
+                        We invite you to live an unforgettable dining experience in a warm and unique atmosphere.
+                    </p>
+                </div>
+            </div>
+            <i class="fas fa-angle-left change-background fa-2x"></i>
+            <i class="fas fa-angle-right change-background fa-2x"></i>
+            <ul class="bullets">
+                <li></li>
+                <li class="active"></li>
+                <li></li>
+            </ul>
+        </section>
+
+        <section class="services">
+            <div class="container">
+                <div class="main-heading">
+                    <h2>Our Services</h2>
+                    <p>
+                        Experience the difference that passion, fresh ingredients, and dedication make to every meal.
+                    </p>
+                </div>
+                <div class="services-container">
+                    <div class="srv-box">
+                        <i class="fas fa-seedling fa-3x"></i>
+                        <div class="text">
+                            <h3>Finest Quality Ingredients</h3>
+                            <p>
+                                We carefully select the freshest seafood, daily catches, and organic produce, believing that the foundation of an excellent dish lies in pure, high-quality components.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="srv-box">
+                        <i class="fas fa-utensils fa-3x"></i>
+                        <div class="text">
+                            <h3>Expert Chef Preparation</h3> <p>
+                                Our culinary team combines traditional recipes with a modern touch to deliver signature dishes that satisfy every taste, crafted with expertise.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="srv-box">
+                        <i class="fas fa-truck fa-3x"></i>
+                        <div class="text">
+                            <h3>Fast & Hot Delivery</h3>
+                            <p>
+                                We provide quick and reliable delivery, ensuring your meal arrives fresh and hot, as if it just came out of our kitchen, right to your doorstep.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="srv-box">
+                        <i class="fas fa-concierge-bell fa-3x"></i>
+                        <div class="text">
+                            <h3>Catering & Events</h3>
+                            <p>
+                                Planning a special event? We offer customized catering services tailored to your needs, guaranteeing a memorable meal for all your guests.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="design">
+            <div class="container" id="menu">
+                <div class="text">
+                    <h2>Our Chef's Recommended Dishes</h2>
+                    <ul>
+                        <li class="active">Parmesan-Crusted Sea Bass</li>
+                        <li>Signature Seafood Pasta</li>
+                        <li>Gourmet Vegetarian Platter</li>
+                        <li>Daily Soup Special</li>
+                    </ul>
+                </div>
+                <div class="image">
+                    <i class="fas fa-angle-left change-background fa-2x"></i>
+                    <img decoding="async" src="images/signature-dish.webp" alt="Signature Dish"/> 
+                    <i class="fas fa-angle-right change-background fa-2x"></i>
+                </div>
+            </div>
+        </section>
+
+        <section class="portfolio">
+            <div class="container" id="gallery">
+                <div class="main-heading">
+                    <h2>Gallery</h2>
+                    <p>A sneak peek into our kitchen and dining hall. Taste is important, but presentation is everything.</p>
+                </div>
+                <ul class="shuffle">
+                        <li class="active">All Dishes</li>
+                        <li>Appetizers</li>
+                        <li>Main Course</li>
+                        <li>Desserts</li>
+                        <li>Atmosphere</li>
+                </ul>
+            </div>
+            <div class="imgs container">
+                <div class="box">
+                    <img decoding="async" src="images/shuffle-01.webp" alt=""/>
+                    <div class="caption">
+                        <h4>Awesome Dish Name</h4>
+                        <p>Main Course</p>
+                    </div>
+                </div>
+                <div class="box">
+                    <img decoding="async" src="images/shuffle-02.webp" alt=""/>
+                    <div class="caption">
+                        <h4>Awesome Dish Name</h4>
+                        <p>Appetizer</p>
+                    </div>
+                </div>
+                <div class="box">
+                    <img decoding="async" src="images/shuffle-03.webp" alt=""/>
+                    <div class="caption">
+                        <h4>Awesome Dish Name</h4>
+                        <p>Dessert</p>
+                    </div>
+                </div>
+                <div class="box">
+                    <img decoding="async" src="images/shuffle-04.webp" alt=""/>
+                    <div class="caption">
+                        <h4>Awesome Dish Name</h4>
+                        <p>Main Course</p>
+                    </div>
+                </div>
+                <div class="box">
+                    <img decoding="async" src="images/shuffle-05.webp" alt=""/>
+                    <div class="caption">
+                        <h4>Awesome Dish Name</h4>
+                        <p>Atmosphere</p>
+                    </div>
+                </div>
+                <div class="box">
+                    <img decoding="async" src="images/shuffle-06.webp" alt=""/>
+                    <div class="caption">
+                        <h4>Awesome Dish Name</h4>
+                        <p>Main Course</p>
+                    </div>
+                </div>
+                <div class="box">
+                    <img decoding="async" src="images/shuffle-07.webp" alt=""/>
+                    <div class="caption">
+                        <h4>Awesome Dish Name</h4>
+                        <p>Appetizer</p>
+                    </div>
+                </div>
+                <div class="box">
+                    <img decoding="async" src="images/shuffle-08.webp" alt=""/>
+                    <div class="caption">
+                        <h4>Awesome Dish Name</h4>
+                        <p>Dessert</p>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="more">View Full Menu</a>
+        </section>
+
+        <section class="video">
+            <video autoplay muted loop playsinline>
+                <source src="images/background-video.mp4" type="video/mp4" />
+            </video>
+            <div class="text">
+                <h2>Experience Our Atmosphere</h2> <p>Book Your Table Today</p> <button>Book Now</button>
+            </div>
+        </section>
+
+        <section class="about">
+            <div class="container" id="about">
+                <div class="main-heading">
+                    <h2>Our Story</h2>
+                    <p>We believe simplicity is the secret to great flavor.</p>
+                </div>
+                
+                <div class="about-content">
+                    <div class="text">
+                        <p class="bold-text">
+                            "Since 1998, we have been serving the finest ocean-fresh seafood with an unwavering passion. Our mission is to transform fresh ingredients into unforgettable memories at your table."
+                        </p>
+                        <p class="light-text">
+                            Our team of skilled chefs combines traditional coastal recipes with a modern touch to deliver dishes that satisfy every taste. Come and experience the difference passion makes.
+                        </p>
+                        <div class="signature">IO Chef</div>
+                    </div>
+                    <div class="image">
+                        <img decoding="async" src="images/story-image.webp" alt="Our Story"/> 
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="stats">
+            <div class="container">
+                <div class="box">
+                    <i class="fas fa-utensils"></i> <div class="number">1,236</div>
+                    <p>Dishes Served</p>
+                </div>
+                <div class="box">
+                    <i class="fas fa-map-marker-alt"></i> <div class="number">8</div>
+                    <p>Locations</p>
+                </div>
+                <div class="box">
+                    <i class="fas fa-star"></i> <div class="number">1,743</div>
+                    <p>Customer Reviews</p>
+                </div>
+                <div class="box">
+                    <i class="fas fa-users"></i> <div class="number">17</div>
+                    <p>Expert Chefs</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="our-skills">
+            <div class="container">
+                <div class="testimonials">
+                    <h1>Customer Testimonials</h1>
+                    <p>
+                        Hear what our guests are saying about their dining experience. Your feedback helps us grow.
+                    </p>
+                    <div class="content">
+                        <img decoding="async" src="images/profile-01.png" alt=""/>
+                        <div class="text">
+                            "The food was exceptional, truly a memorable experience. Every dish was prepared to perfection."
+                            <p>Sarah J., Frequent Guest</p>
+                        </div>
+                    </div>
+                    <div class="content">
+                        <img decoding="async" src="images/profile-02.png" alt=""/>
+                        <div class="text">
+                            "Fast delivery and the meal was still hot! The quality is unmatched in the area."
+                            <p>Omar H., Delivery Customer</p>
+                        </div>
+                    </div>
+                    <ul class="bullets">
+                        <li></li>
+                        <li class="active"></li>
+                        <li></li>
+                    </ul>
+                </div>
+
+                <div class="skills">
+                    <h1>Why Choose Us?</h1>
+                    <p>
+                        We take pride in our exceptional service, loyal community, and dedication to providing an unforgettable dining experience.
+                    </p>
+                    
+                    <div class="prog-holder">
+                        <h4>Positive Reviews</h4>
+                        <div class="prog">
+                            <span style="width: 95%" data-progress="95%"></span>
+                        </div>
+                    </div>
+                    
+                    <div class="prog-holder">
+                        <h4>On-Time Deliveries</h4>
+                        <div class="prog">
+                            <span style="width: 90%" data-progress="90%"></span>
+                        </div>
+                    </div>
+                    
+                    <div class="prog-holder">
+                        <h4>Returning Customers</h4>
+                        <div class="prog">
+                            <span style="width: 85%" data-progress="85%"></span>
+                        </div>
+                    </div>
+                    
+                    <div class="prog-holder">
+                        <h4>Locally Sourced Ingredients</h4>
+                        <div class="prog">
+                            <span style="width: 80%" data-progress="80%"></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="quote">
+            <div class="container">
+                <q>Food is not just sustenance; it is an experience, a memory, and an art form.</q>
+                <span>- Auguste Escoffier (Famous Chef)</span>
+            </div>
+        </section>
+
+        <section class="pricing">
+            <div class="container" id="reservations">
+                <div class="main-heading">
+                    <h2>Exclusive Set Menus</h2>
+                    <p>
+                        Discover our chef's specially curated dining packages <br> for a complete and unforgettable culinary experience.
+                    </p>
+                </div>
+                <div class="plans">
+                    <div class="plan">
+                        <div class="head">
+                            <h3>Business Lunch</h3>
+                            <span>$25</span>
+                        </div>
+                        <ul>
+                            <li>Available Mon-Fri, 12PM-4PM</li>
+                            <li>Choice of Soup or Fresh Salad</li>
+                            <li>Chef's Special Main Course</li>
+                            <li>Complimentary Soft Beverage</li>
+                        </ul>
+                        <div class="foot">
+                            <a href="#">Book Lunch</a>
+                        </div>
+                    </div>
+                    <div class="plan">
+                        <div class="head">
+                            <h3>Romantic Dinner</h3>
+                            <span>$80</span>
+                        </div>
+                        <ul>
+                            <li>Perfect for 2 Guests</li>
+                            <li>3-Course Signature Menu</li>
+                            <li>Candlelit Window Seating</li>
+                            <li>Welcome Appetizer Included</li>
+                        </ul>
+                        <div class="foot">
+                            <a href="#">Book Dinner</a>
+                        </div>
+                    </div>
+                    <div class="plan">
+                        <div class="head">
+                            <h3>Family Feast</h3>
+                            <span>$150</span>
+                        </div>
+                        <ul>
+                            <li>Ideal for 4-6 Guests</li>
+                            <li>Shared Appetizer Platters</li>
+                            <li>Mixed Grill & Seafood Main</li>
+                            <li>Assorted Premium Desserts</li>
+                        </ul>
+                        <div class="foot">
+                            <a href="#">Reserve Table</a>
+                        </div>
+                    </div>
+                    <div class="plan">
+                        <div class="head">
+                            <h3>Private Event</h3>
+                            <span>Quote</span>
+                        </div>
+                        <ul>
+                            <li>Full Venue or Private Room</li>
+                            <li>Custom Catering Menu</li>
+                            <li>Dedicated Event Manager</li>
+                            <li>Audio/Visual Setup</li>
+                        </ul>
+                        <div class="foot">
+                            <a href="#">Get a Quote</a>
+                        </div>
+                    </div>
+                </div>
+                <p class="contact-text">Hosting a larger celebration or corporate event? <br> Contact us directly for personalized arrangements.</p> 
+                <a href="#" class="contact-link">Contact Event Team</a>
+            </div>
+        </section>
+
+        <section class="subscribe">
+            <div class="container">
+                <form action="">
+                    <i class="far fa-envelope fa-lg"></i>
+                    <input type="email" name="mail" placeholder="Your Email"/>
+                    <input type="submit" value="Subscribe"/>
+                </form>
+                <p>
+                    Subscribe to receive our latest menu updates, special offers, and chef's daily recommendations directly to your inbox.
+                </p>
+            </div>
+        </section>
+
+        <section class="contact">
+            <div class="container" id="contact">
+                <div class="main-heading">
+                    <h2>Reserve Your Table</h2>
+                    <p>
+                        We are here to serve you. Secure your spot for an unforgettable seafood experience.
+                    </p>
+                </div>
+                <div class="content">
+                    <form action="">
+                        <div class="input-group">
+                            <input class="main-input" type="text" name="name" placeholder="Your Name" required/>
+                            <input class="main-input" type="tel" name="phone" placeholder="Phone Number" required/>
+                        </div>
+                        <div class="input-group">
+                            <input class="main-input" type="date" name="date" required/>
+                            <input class="main-input" type="time" name="time" required/>
+                            <input class="main-input" type="number" name="guests" placeholder="Guests" min="1" required/>
+                        </div>
+                        <textarea class="main-input" name="message" placeholder="Special Requests (Optional)"></textarea>
+                        <input type="submit" value="Book Table"/>
+                    </form>
+                    
+                    <div class="info">
+                        <div class="info-block">
+                            <h4><i class="fas fa-phone-alt"></i> Book By Phone</h4> 
+                            <span class="phone">+00 123.456.789</span>
+                            <span class="phone">+00 123.456.789</span>
+                        </div>
+                        <div class="info-block">
+                            <h4><i class="fas fa-map-marker-alt"></i> Main Location</h4> 
+                            <address>15 Ocean Drive<br/>Harbor Port, NYC<br/>USA</address>
+                        </div>
+                        <div class="info-block">
+                            <h4><i class="fas fa-clock"></i> Working Hours</h4> 
+                            <span>Mon - Sun: 12:00 PM - 11:00 PM</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <footer class="footer">
+            <div class="container">
+                <img decoding="async" src="images/new-logo.png" alt="Logo"/>
+                <p>Follow Us For Updates</p>
+                <div class="social-icons">
+                    <i class="fab fa-facebook-f"></i>
+                    <i class="fab fa-twitter"></i>
+                    <i class="fab fa-instagram"></i>
+                </div>
+                <p class="copyright">&copy; 2026 <span>IO</span> All Rights Reserved</p>
+            </div>
+        </footer>
+
+    </body>
+</html>
